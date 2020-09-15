@@ -1,0 +1,80 @@
+body {
+font-family: sans-serif;
+}
+
+nav {
+    text-align: right;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding: 10px;
+}
+
+#logo {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#searchbox {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    line-height: 30px;
+    color: lightgrey;
+}
+
+.search {
+    position: absolute;
+    left: 40%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+
+    font-size: 14px;
+    padding: 6px 10px;
+    border: transparent;
+    color: rgb(84, 97, 109);
+    border-radius: 10%;
+    
+}
+
+.lucky {
+    position: absolute;
+    left: 60%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+
+    font-size: 14px;
+    padding: 6px 10px;
+    border: transparent;
+    color: rgb(84, 97, 109);
+    border-radius: 10%;
+}
+
+#languages {
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+
+    font-size: 13px;
+}
+
+#language-links {
+    color: blue;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 14px;
+
+    background-color: rgb(247, 243, 243);
+}
